@@ -86,7 +86,7 @@
   function toType(obj) {
     return {}.toString.call(obj).match(/\s([a-z]+)/i)[1].toLowerCase();
   }
-
+ 
   function getSpecialTransitionEndEvent() {
     return {
       bindType: TRANSITION_END,
