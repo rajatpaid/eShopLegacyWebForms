@@ -126,7 +126,6 @@
    * --------------------------------------------------------------------------
    */
 
-
   var Util = {
     TRANSITION_END: 'bsTransitionEnd',
     getUID: function getUID(prefix) {
